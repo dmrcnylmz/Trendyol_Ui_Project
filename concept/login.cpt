@@ -1,0 +1,12 @@
+Created by testinium on 10.01.2021
+
+This is a concept file with following syntax for each concept.
+# Login
+* "2" second wait
+* Wait for "Home_Page_Woman_Man_Popup" and click
+* Hover to "Sing_In_Hover"
+* Wait for "Sing_In_Button" and click
+* Write "testtrendyol321@gmail.com" to the "Sing_In_Email" and clear area
+* Write "testtrendyol321" to the "Sing_In_Password" and clear area
+* Wait for "Sing_In_Two_Button" and click
+* Is "Account_Sing_In_Control" element Visible ? "10"

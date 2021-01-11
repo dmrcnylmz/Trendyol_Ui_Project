@@ -1,0 +1,33 @@
+[
+  {
+    "key": "Category_Tab",
+    "value": "#navigation-wrapper > nav > ul > li > a",
+    "type": "css"
+  },
+
+  {
+    "key": "Any_Product_Boutique",
+    "value": "//div[@class='p-card-wrppr'][1] | (//div[@class='product-brand-description two-line-text'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Add_Basket_Button",
+    "value": "//div[@class='add-to-bs-tx'] [contains(text(),'Sepete Ekle')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Active_Category_Tab_Control",
+    "value": "//li[@class='tab-link active']/a",
+    "type": "xpath"
+  },
+  {
+    "key": "Category_Images",
+    "value": "//article[@class='component-item']/a/span/img",
+    "type": "xpath"
+  },
+  {
+    "key": "Product_Images",
+    "value": "//img[contains(@class,'p-card-img')]",
+    "type": "xpath"
+  }
+]

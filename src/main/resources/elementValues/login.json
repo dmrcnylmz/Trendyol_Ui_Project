@@ -1,0 +1,37 @@
+[
+  {
+    "key": "Home_Page_Woman_Man_Popup",
+    "value": "(//span[@class='homepage-popup-gender'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "Sing_In_Hover",
+    "value": ".i-user-orange",
+    "type": "css"
+  },
+  {
+    "key": "Sing_In_Button",
+    "value": ".login-button",
+    "type": "css"
+  },
+  {
+    "key": "Sing_In_Email",
+    "value": "//input[@id='login-email']",
+    "type": "xpath"
+  },
+  {
+    "key": "Sing_In_Password",
+    "value": "login-password-input",
+    "type": "id"
+  },
+  {
+    "key": "Sing_In_Two_Button",
+    "value": "(//button/span[contains(text(),'Giriş Yap')])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "Account_Sing_In_Control",
+    "value": "//span[@id='logged-in-container']/span[contains(text(),'Hesabım')]",
+    "type": "xpath"
+  }
+  ]

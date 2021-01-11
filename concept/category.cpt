@@ -1,0 +1,49 @@
+Created by testinium on 11.01.2021
+
+This is a concept file with following syntax for each concept.
+
+# Go to <tabIndex> category check tab text <categoryText> , page title <title> and boutique image
+* Go to <tabIndex> tab
+* Is tab text like this <categoryText>
+* Check page title text <title>
+
+# Go to all category and check all tab image with JS
+* Go to "1" category check tab text "KADIN" , page title "KADIN" and boutique image
+* Control boutique image with JS
+* Go to "2" category check tab text "ERKEK" , page title "ERKEK" and boutique image
+* Control boutique image with JS
+* Go to "3" category check tab text "ÇOCUK" , page title "ÇOCUK" and boutique image
+* Control boutique image with JS
+* Go to "4" category check tab text "EV & YAŞAM" , page title "EV & YAŞAM" and boutique image
+* Control boutique image with JS
+* Go to "5" category check tab text "SÜPERMARKET" , page title "SÜPERMARKET" and boutique image
+* Control boutique image with JS
+* Go to "6" category check tab text "KOZMETİK" , page title "KOZMETİK" and boutique image
+* Control boutique image with JS
+* Go to "7" category check tab text "AYAKKABI & ÇANTA" , page title "AYAKKABI & ÇANTA" and boutique image
+* Control boutique image with JS
+* Go to "8" category check tab text "SAAT & AKSESUAR" , page title "SAAT & AKSESUAR" and boutique image
+* Control boutique image with JS
+* Go to "9" category check tab text "ELEKTRONİK" , page title "ELEKTRONİK" and boutique image
+* Control boutique image with JS
+
+# Go to all category and check all tab image with HttpConnection
+
+* Go to "1" category check tab text "KADIN" , page title "KADIN" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "2" category check tab text "ERKEK" , page title "ERKEK" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "3" category check tab text "ÇOCUK" , page title "ÇOCUK" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "4" category check tab text "EV & YAŞAM" , page title "EV & YAŞAM" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "5" category check tab text "SÜPERMARKET" , page title "SÜPERMARKET" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "6" category check tab text "KOZMETİK" , page title "KOZMETİK" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "7" category check tab text "AYAKKABI & ÇANTA" , page title "AYAKKABI & ÇANTA" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "8" category check tab text "SAAT & AKSESUAR" , page title "SAAT & AKSESUAR" and boutique image
+* Find broken images with http "Category_Images"
+* Go to "9" category check tab text "ELEKTRONİK" , page title "ELEKTRONİK" and boutique image
+* Find broken images with http "Category_Images"
