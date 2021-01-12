@@ -3,9 +3,8 @@ package Base;
 import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.BeforeScenario;
 import com.thoughtworks.gauge.ExecutionContext;
-import helper.StoreHelper;
-import org.apache.log4j.Logger;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,7 +18,7 @@ public class BaseTest {
 
     protected static WebDriver driver;
     protected static WebDriverWait webDriverWait;
-    protected static Logger logger = Logger.getLogger(StoreHelper.class);
+    protected static Logger logger = LogManager.getLogger(BaseTest.class);
 
     String browser = System.getenv("browser");
 

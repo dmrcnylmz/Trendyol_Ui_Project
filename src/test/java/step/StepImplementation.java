@@ -5,7 +5,6 @@ import com.thoughtworks.gauge.Step;
 import helper.ElementHelper;
 import helper.StoreHelper;
 import model.ElementInfo;
-import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

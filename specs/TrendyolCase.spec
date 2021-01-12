@@ -4,7 +4,7 @@ Created by testinium on 10.01.2021
 
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-     
+
 Go To Trendyol Check All Tab İmage (JS) And Add Basket Product
 --------------------------------------------------
 * Go to "https://www.trendyol.com/"

@@ -3,9 +3,8 @@ package helper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import model.ElementInfo;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,9 +17,8 @@ import java.util.concurrent.ConcurrentMap;
 public enum StoreHelper {
 
     INSTANCE;
-
+    protected static Logger logger = LogManager.getLogger(StoreHelper.class);
     private static final String DEFAULT_DIRECTORY_PATH = "elementValues";
-    protected static Logger logger = Logger.getLogger(StoreHelper.class);
     ConcurrentMap<String, Object> elementMapList;
 
     StoreHelper() {
